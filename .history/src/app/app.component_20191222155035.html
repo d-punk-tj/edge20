@@ -1,0 +1,22 @@
+
+<particles [params]="myParams" [style]="myStyle" [width]="width" [height]="height" >
+    <section class="error-body">   
+        <div class="message">
+        <h1 >Edge</h1>
+        <div class="bottom">
+          <p>You have lost your way</p>
+          <a href="#">return home</a>
+        </div>
+      </div>
+    </section>
+</particles>
+    <app-logos></app-logos>
+    <router-outlet >
+    </router-outlet>
+
+    
+    <ngx-smart-modal #myModal identifier="myModal" customClass="nsm-dialog-animation-fade" [closable]="false">
+      <button type="button" (click)="close()" aria-label="Close" class="nsm-dialog-btn-close">&times;</button>
+      <br>
+      <div [innerHTML]="myModal.getData()"></div>
+    </ngx-smart-modal>
