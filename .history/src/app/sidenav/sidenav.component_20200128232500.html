@@ -1,0 +1,28 @@
+<div class="example-container" [class.example-is-mobile]="mobileQuery.matches" *ngIf="shouldRun">
+    
+
+  <mat-sidenav-container class="example-sidenav-container"
+                         [style.marginTop.px]="mobileQuery.matches ? 56 : 0" style="background: none;margin-top: 56px;height: 100%;">
+                         <button mat-icon-button (click)="snav.toggle()" style="
+                         position: relative;
+                         top: 26px;
+                         background: #b33125;
+                         border: none;
+
+                     "><mat-icon>dashboard</mat-icon></button>
+    <mat-sidenav #snav [opened] = "mobileQuery.matches ? 'false' : 'true'" [mode]="mobileQuery.matches ? 'over' : 'side'"
+                 [fixedInViewport]="mobileQuery.matches" fixedTopGap="56" style="background: none; top: 15vh;">      
+    <mat-nav-list>
+      <div>
+        <img src="../../assets/home.svg">
+    </div>
+    <a mat-list-item [routerLink]=nav *ngFor="let nav of fillerNav" style="color: white;">{{nav}}</a>
+      </mat-nav-list>
+    </mat-sidenav>
+    <router-outlet > 
+    </router-outlet>
+   
+  </mat-sidenav-container>
+</div>
+
+
