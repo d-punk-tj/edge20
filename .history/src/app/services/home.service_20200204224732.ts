@@ -7,7 +7,7 @@ export class HomeService {
 
   home = [{
     id: 'about',
-    desc: `<h1 class="vhs-message">Techno Main Salt Lake</h1>
+    desc: `<h1>Techno Main Salt Lake</h1>
           <p><b>Techno Main</b> is an engineering and management college located in West Bengal. Established in 2001 by the Techno India group, it offers both undergraduate and postgraduate courses in various engineering, computer and business disciplines. The college is AICTE approved institution affiliated to West Bengal University of technology. Since its inception, TIG group has strengthened its original emphasis on science and engineering and expanded into management and various other areas.</p>
           <h1>Geekonix</h1>
           <p><b>Geekonix</b> is the official science and technology society of Techno Main, Salt Lake. It was formed back in 2004-2005 with the sole purpose of providing students with opportunities for enhancing their creativity and developing a pathway for exposure for the students zealous in the technical field. Under Geekonix we have various clubs like Robotics Robopalz Club (RRC), Curbrain and many more. With time, Geekonix has grown into a centre of innovation and technical expertise.</p>
@@ -24,21 +24,21 @@ export class HomeService {
   },
   {
     id: 'accomodation',
-    desc: `<h1 class="vhs-message">Accomodation</h1>
+    desc: `<h1>Accomodation</h1>
           <div class="content-centered">
             <h1> Comming soon </h1>
           </div>`
   },
   {
     id: 'reg',
-    desc: `<h1 class="vhs-message">Schedule & Registration</h1>
+    desc: `<h1>Schedule & Registration</h1>
           <div class="content-centered">
             <h1>Comming soon </h1>
           </div>`
   },
   {
     id: 'contact',
-    desc: `<h1 class="vhs-message">Contact</h1>
+    desc: `<h1>Contact</h1>
           <p>For queries related to events contact the respective event co-ordinators whose contats are given on the respective event pages.</p>
           <br>
           <p>Email: <a href="mailto:geekonix@gmail.com">geekonix@gmail.com</a></p>
@@ -52,7 +52,7 @@ export class HomeService {
   {
     id: 'ca',
     desc: `
-    <h1 class="vhs-message">Campus Ambasador</h1>
+    <h1>Campus Ambasador</h1>
     <div class="row">
     <div class="col-sm-6">
     <p>Hello all social butterflies out there who are not a student of TMSL, but intrigued to be a part of Eastern India's 2nd largest techno-management fest, EDGE.</p>
@@ -95,7 +95,7 @@ export class HomeService {
   },
   {
     id: 'deeds',
-    desc: `<h1 >Edge Deeds</h1>
+    desc: `<h1>Edge Deeds</h1>
             <h1>Comming soon</h1>
           `
   }]

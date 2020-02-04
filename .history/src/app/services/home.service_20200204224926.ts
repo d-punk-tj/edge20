@@ -18,7 +18,7 @@ export class HomeService {
     id: 'merch',
     desc: `<h1 class="vhs-message">Merchandise</h1>
     <div class="content-centered">
-    <h1> Comming soon </h1>
+    <h1 style="margin-top : 200px"> Comming soon </h1>
   </div>
           `
   },
@@ -26,14 +26,14 @@ export class HomeService {
     id: 'accomodation',
     desc: `<h1 class="vhs-message">Accomodation</h1>
           <div class="content-centered">
-            <h1> Comming soon </h1>
+            <h1 style="margin-top : 200px"> Comming soon </h1>
           </div>`
   },
   {
     id: 'reg',
     desc: `<h1 class="vhs-message">Schedule & Registration</h1>
           <div class="content-centered">
-            <h1>Comming soon </h1>
+            <h1 style="margin-top : 200px">Comming soon </h1>
           </div>`
   },
   {
@@ -95,7 +95,7 @@ export class HomeService {
   },
   {
     id: 'deeds',
-    desc: `<h1 >Edge Deeds</h1>
+    desc: `<h1 class="vhs-message">Edge Deeds</h1>
             <h1>Comming soon</h1>
           `
   }]
