@@ -18,6 +18,34 @@
   font-weight: 100;
 }
 
+.scanlines {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 300;
+  opacity: .6;
+  will-change: opacity;
+  animation: opacity 3s linear infinite;
+
+  &:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    background: linear-gradient(to bottom, transparent 50%, rgba(0, 0, 0, .5) 51%);
+    background-size: 100% 4px;
+    will-change: background, background-size;
+    animation: scanlines .2s linear infinite;
+  }
+}
+
+
 html, body{
   padding: 0;
   margin: 0;
@@ -26,10 +54,12 @@ html, body{
 }
 
 body{
-  background: lighten(#1d0101,5%);
-	
-	animation: blue-me 5ms infinite;
+  background: lighten(#1d0101,5%);	
+  animation: blue-me 5ms infinite;
+  
+  
 }
+
 
 body:after {   
  box-shadow: inset 0 0 10em rgba(0,0,0,0.75);
@@ -53,7 +83,7 @@ body:after {
 .vhs-message{
 	animation: track 5ms infinite;
    position: relative;
-	margin: 4em;
+	
 }
 h1{
 	
@@ -205,11 +235,14 @@ a, a:hover{
 }
 
 .icon-center {
-  display: none;
+  display: block;
+  width: 70%;
+    position: relative;
+    left: calc(54vw - 20vh);
 }
 
 .logo-center{
-  display: none;
+  display: block;
 }
 
 .icon {
@@ -265,11 +298,11 @@ a, a:hover{
 @media (min-width: 768px) {
   .icon-center {
     display: block;
-    width: 30vh;
-    height: 30vh;
-    position: absolute;
-    top: 35vh;
-    left: calc(50vw - 15vh);
+    width: 40vh;
+    height: 40vh;
+    position: fixed;
+    top: 27vh;
+    left: calc(50vw - 20vh);
   }
 
   @media (min-width: 768px) {
@@ -284,12 +317,12 @@ a, a:hover{
   }
 
   .icon {
-    width: 15vh;
-    height: 15vh;
-    position: absolute;
-    top: 42.5vh;
-    margin-top: 0;
-    left: calc(50vw - 7.5vh);
+    // width: 15vh;
+    // height: 15vh;
+    // position: relative;
+    // top: 42.5vh;
+    // margin-top: 0;
+    // left: calc(50vw - 7.5vh);
 
     img {
       width: 15vh;
@@ -298,300 +331,303 @@ a, a:hover{
   }
 
   #icons {
-    margin-top: 0;
+    // margin-top: 0;
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
   }
   
-  @mixin deg($d) {
-    transform: rotate($d) translate(50vh) rotate(-$d);
-  }
+  // @mixin deg($d) {
+  //   transform: rotate($d) translate(50vh) rotate(-$d);
+  // }
   
-  .deg0 {
-    @include deg(-0deg);
-  }
+  // .deg0 {
+  //   @include deg(-0deg);
+  // }
 
-  .deg5 {
-    @include deg(-5deg);
-  }
+  // .deg5 {
+  //   @include deg(-5deg);
+  // }
 
-  .deg10 {
-    @include deg(-10deg);
-  }
+  // .deg10 {
+  //   @include deg(-10deg);
+  // }
   
-  .deg15 {
-    @include deg(-15deg);
-  }
+  // .deg15 {
+  //   @include deg(-15deg);
+  // }
 
-  .deg20 {
-    @include deg(-20deg);
-  }
+  // .deg20 {
+  //   @include deg(-20deg);
+  // }
 
-  .deg25 {
-    @include deg(-25deg);
-  }
+  // .deg25 {
+  //   @include deg(-25deg);
+  // }
   
-  .deg30 {
-    @include deg(-30deg);
-  }
+  // .deg30 {
+  //   @include deg(-30deg);
+  // }
 
-  .deg35 {
-    @include deg(-35deg);
-  }
+  // .deg35 {
+  //   @include deg(-35deg);
+  // }
 
-  .deg40 {
-    @include deg(-40deg);
-  }
+  // .deg40 {
+  //   @include deg(-40deg);
+  // }
   
-  .deg45 {
-    @include deg(-45deg);
-  }
+  // .deg45 {
+  //   @include deg(-45deg);
+  // }
 
-  .deg50 {
-    @include deg(-50deg);
-  }
+  // .deg50 {
+  //   @include deg(-50deg);
+  // }
 
-  .deg55 {
-    @include deg(-55deg);
-  }
+  // .deg55 {
+  //   @include deg(-55deg);
+  // }
 
-  .deg60 {
-    @include deg(-60deg);
-  }
+  // .deg60 {
+  //   @include deg(-60deg);
+  // }
 
-  .deg65 {
-    @include deg(-65deg);
-  }
+  // .deg65 {
+  //   @include deg(-65deg);
+  // }
 
-  .deg70 {
-    @include deg(-70deg);
-  }
+  // .deg70 {
+  //   @include deg(-70deg);
+  // }
 
-  .deg75 {
-    @include deg(-75deg);
-  }
+  // .deg75 {
+  //   @include deg(-75deg);
+  // }
 
-  .deg80 {
-    @include deg(-80deg);
-  }
+  // .deg80 {
+  //   @include deg(-80deg);
+  // }
 
-  .deg85 {
-    @include deg(-85deg);
-  }
+  // .deg85 {
+  //   @include deg(-85deg);
+  // }
 
-  .deg90 {
-    @include deg(-90deg);
-  }
+  // .deg90 {
+  //   @include deg(-90deg);
+  // }
 
-  .deg95 {
-    @include deg(-95deg);
-  }
+  // .deg95 {
+  //   @include deg(-95deg);
+  // }
 
-  .deg100 {
-    @include deg(-100deg);
-  }
+  // .deg100 {
+  //   @include deg(-100deg);
+  // }
 
-  .deg105 {
-    @include deg(-105deg);
-  }
+  // .deg105 {
+  //   @include deg(-105deg);
+  // }
 
-  .deg110 {
-    @include deg(-110deg);
-  }
+  // .deg110 {
+  //   @include deg(-110deg);
+  // }
 
-  .deg115 {
-    @include deg(-115deg);
-  }
+  // .deg115 {
+  //   @include deg(-115deg);
+  // }
   
-  .deg120 {
-    @include deg(-120deg);
-  }
+  // .deg120 {
+  //   @include deg(-120deg);
+  // }
 
-  .deg125 {
-    @include deg(-125deg);
-  }
+  // .deg125 {
+  //   @include deg(-125deg);
+  // }
 
-  .deg130 {
-    @include deg(-130deg);
-  }
+  // .deg130 {
+  //   @include deg(-130deg);
+  // }
   
-  .deg135 {
-    @include deg(-135deg);
-  }
+  // .deg135 {
+  //   @include deg(-135deg);
+  // }
 
-  .deg140 {
-    @include deg(-140deg);
-  }
+  // .deg140 {
+  //   @include deg(-140deg);
+  // }
 
-  .deg145 {
-    @include deg(-145deg);
-  }
+  // .deg145 {
+  //   @include deg(-145deg);
+  // }
   
-  .deg150 {
-    @include deg(-150deg);
-  }
+  // .deg150 {
+  //   @include deg(-150deg);
+  // }
 
-  .deg155 {
-    @include deg(-155deg);
-  }
+  // .deg155 {
+  //   @include deg(-155deg);
+  // }
 
-  .deg160 {
-    @include deg(-160deg);
-  }
+  // .deg160 {
+  //   @include deg(-160deg);
+  // }
   
-  .deg165 {
-    @include deg(-165deg);
-  }
+  // .deg165 {
+  //   @include deg(-165deg);
+  // }
 
-  .deg170 {
-    @include deg(-170deg);
-  }
+  // .deg170 {
+  //   @include deg(-170deg);
+  // }
 
-  .deg175 {
-    @include deg(-175deg);
-  }
+  // .deg175 {
+  //   @include deg(-175deg);
+  // }
   
-  .deg180 {
-    @include deg(-180deg);
-  }
+  // .deg180 {
+  //   @include deg(-180deg);
+  // }
 
-  .deg185 {
-    @include deg(-185deg);
-  }
+  // .deg185 {
+  //   @include deg(-185deg);
+  // }
 
-  .deg190 {
-    @include deg(-190deg);
-  }
+  // .deg190 {
+  //   @include deg(-190deg);
+  // }
   
-  .deg195 {
-    @include deg(-195deg);
-  }
+  // .deg195 {
+  //   @include deg(-195deg);
+  // }
 
-  .deg200 {
-    @include deg(-200deg);
-  }
+  // .deg200 {
+  //   @include deg(-200deg);
+  // }
 
-  .deg205 {
-    @include deg(-205deg);
-  }
+  // .deg205 {
+  //   @include deg(-205deg);
+  // }
 
-  .deg210 {
-    @include deg(-210deg);
-  }
+  // .deg210 {
+  //   @include deg(-210deg);
+  // }
 
-  .deg215 {
-    @include deg(-215deg);
-  }
+  // .deg215 {
+  //   @include deg(-215deg);
+  // }
   
-  .deg220 {
-    @include deg(-220deg);
-  }
+  // .deg220 {
+  //   @include deg(-220deg);
+  // }
   
-  .deg225 {
-    @include deg(-225deg);
-  }
+  // .deg225 {
+  //   @include deg(-225deg);
+  // }
 
-  .deg230 {
-    @include deg(-230deg);
-  }
+  // .deg230 {
+  //   @include deg(-230deg);
+  // }
 
-  .deg235 {
-    @include deg(-235deg);
-  }
+  // .deg235 {
+  //   @include deg(-235deg);
+  // }
   
-  .deg240 {
-    @include deg(-240deg);
-  }
+  // .deg240 {
+  //   @include deg(-240deg);
+  // }
 
-  .deg245 {
-    @include deg(-245deg);
-  }
+  // .deg245 {
+  //   @include deg(-245deg);
+  // }
 
-  .deg250 {
-    @include deg(-250deg);
-  }
+  // .deg250 {
+  //   @include deg(-250deg);
+  // }
 
-  .deg255 {
-    @include deg(-255deg);
-  }
+  // .deg255 {
+  //   @include deg(-255deg);
+  // }
 
-  .deg260 {
-    @include deg(-260deg);
-  }
+  // .deg260 {
+  //   @include deg(-260deg);
+  // }
 
-  .deg265 {
-    @include deg(-265deg);
-  }
+  // .deg265 {
+  //   @include deg(-265deg);
+  // }
 
-  .deg270 {
-    @include deg(-270deg);
-  }
+  // .deg270 {
+  //   @include deg(-270deg);
+  // }
 
-  .deg275 {
-    @include deg(-275deg);
-  }
+  // .deg275 {
+  //   @include deg(-275deg);
+  // }
 
-  .deg280 {
-    @include deg(-280deg);
-  }
+  // .deg280 {
+  //   @include deg(-280deg);
+  // }
 
-  .deg285 {
-    @include deg(-285deg);
-  }
+  // .deg285 {
+  //   @include deg(-285deg);
+  // }
 
-  .deg290 {
-    @include deg(-290deg);
-  }
+  // .deg290 {
+  //   @include deg(-290deg);
+  // }
 
-  .deg295 {
-    @include deg(-295deg);
-  }
+  // .deg295 {
+  //   @include deg(-295deg);
+  // }
 
-  .deg300 {
-    @include deg(-300deg);
-  }
+  // .deg300 {
+  //   @include deg(-300deg);
+  // }
 
-  .deg305 {
-    @include deg(-305deg);
-  }
+  // .deg305 {
+  //   @include deg(-305deg);
+  // }
 
-  .deg310 {
-    @include deg(-310deg);
-  }
+  // .deg310 {
+  //   @include deg(-310deg);
+  // }
   
-  .deg315 {
-    @include deg(-315deg);
-  }
+  // .deg315 {
+  //   @include deg(-315deg);
+  // }
   
-  .deg320 {
-    @include deg(-320deg);
-  }
+  // .deg320 {
+  //   @include deg(-320deg);
+  // }
 
-  .deg325 {
-    @include deg(-325deg);
-  }
+  // .deg325 {
+  //   @include deg(-325deg);
+  // }
 
-  .deg330 {
-    @include deg(-330deg);
-  }
+  // .deg330 {
+  //   @include deg(-330deg);
+  // }
 
-  .deg335 {
-    @include deg(-335deg);
-  }
+  // .deg335 {
+  //   @include deg(-335deg);
+  // }
 
-  .deg340 {
-    @include deg(-340deg);
-  }
+  // .deg340 {
+  //   @include deg(-340deg);
+  // }
   
-  .deg345 {
-    @include deg(-345deg);
-  }
+  // .deg345 {
+  //   @include deg(-345deg);
+  // }
 
-  .deg350 {
-    @include deg(-340deg);
-  }
+  // .deg350 {
+  //   @include deg(-340deg);
+  // }
 
-  .deg355 {
-    @include deg(-355deg);
-  }
+  // .deg355 {
+  //   @include deg(-355deg);
+  // }
 }
 
 // Loading animation

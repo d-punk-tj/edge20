@@ -2,12 +2,14 @@
 <!-- <particles [params]="myParams" [style]="myStyle" [width]="width" [height]="height" ></particles> -->
 <!-- <h4 class="glitch" data-text="Ruh-Roh!">Ruh-Roh!</h4>     -->
 <!-- <div class="glitch" data-text="GLITCH">GLITCH</div>  -->
-<app-logos >
-        
-    </app-logos>
-    <router-outlet > 
-    </router-outlet>
+<app-logos ></app-logos>
 
+<app-sidenav>
+  
+</app-sidenav>
+   
+<router-outlet > 
+</router-outlet>
     <!-- <section class="error-body">   
         <div class="message">
         <h1 >Edge</h1>
@@ -17,7 +19,7 @@
         </div>
       </div>
     </section> -->
-    <ngx-smart-modal #myModal identifier="myModal" customClass="nsm-dialog-animation-fade" [closable]="false">
+    <ngx-smart-modal #myModal identifier="myModal" customClass="nsm-dialog-animation-fade" [closable]="false"><div class="0"><div class="scanlines"></div></div>
       <button type="button" (click)="close()" aria-label="Close" class="nsm-dialog-btn-close">&times;</button>
       <br>
       <div [innerHTML]="myModal.getData()"></div>

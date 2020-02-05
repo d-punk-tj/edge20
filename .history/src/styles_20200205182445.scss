@@ -8,7 +8,7 @@
 @font-face {
 
   font-family: 'HACKED' ;
-  src: url('../src/assets/hacked.ttf') format('truetype');
+  src: url('/src/assets/hacked.ttf') format('truetype');
 
 }
 
@@ -238,9 +238,9 @@ a, a:hover{
 
 .icon-center {
   display: block;
-  width: 59%;
+  width: 70%;
     position: relative;
-    left: calc(59vw - 20vh);
+    left: calc(54vw - 20vh);
 }
 
 .logo-center{
