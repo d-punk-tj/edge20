@@ -11,8 +11,7 @@ export class MegaEventsComponent implements OnInit {
 
   items = [
     {name: "mega-events/edge-night.svg", class: "deg0", caption: "Edge Nights", id: 'nights'},
-    {name: "mega-events/edge-talks.svg", class: "deg180", caption: "Edge Talks", id: 'talks'},
-    {name: "mega-events/edge-deeds.svg", class: "deg360", caption: "Edge Deeds", id: 'deeds'} 
+    {name: "mega-events/edge-talks.svg", class: "deg180", caption: "Edge Talks", id: 'talks'}
   ];
 
   constructor(private ngxSmartModalService: NgxSmartModalService, private megaEventService: MegaEventService) { }
