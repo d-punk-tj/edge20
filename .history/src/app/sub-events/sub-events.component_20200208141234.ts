@@ -14,7 +14,6 @@ export class SubEventsComponent implements OnInit {
   details = {}
   event_name;
   intra = true;
-  desc;
 
   constructor(private route: ActivatedRoute, private eventService: EventService, private ngxSmartModalService: NgxSmartModalService, private intraEventService: IntraEventService) { }
 
@@ -26,8 +25,6 @@ export class SubEventsComponent implements OnInit {
     if (from === 'events'){
       this.details = this.eventService.getDetails(event);
       this.intra = false;
-      this.desc = this.eventService.getDesc(event);
-      
     }
     else if (from === 'intra')
       this.details = this.intraEventService.getDetails(event);
