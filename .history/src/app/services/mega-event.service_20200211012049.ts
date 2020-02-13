@@ -11,7 +11,7 @@ export class MegaEventService {
           <br>
           <p>The star-spangled night, where stars come down to illuminate our stage and freeze the moment with their intriguing speeches and rib-tickling performances ushering in a phenomenal blend of warmth and fervour.  Being a perfect medley of interaction, innovation and recreation, Edge Night ensures that friends who laugh together, stay together and almost certainly, slay together.</p>
           <br>
-          <h2 class="guest_caption ">Past Guests</h2>
+          <h2>Past Guests</h2>
           <div class="container">
             <div class="row">
                 <div class="col-sm-4">
@@ -58,7 +58,7 @@ export class MegaEventService {
           </div>
 
 
-          <h2 class="guest_caption">Inteneted Guests</h2>
+          <h2>Inteneted Guests</h2>
           <div class="container">
             <div class="row">
                 <div class="col-sm-4">
@@ -109,53 +109,9 @@ export class MegaEventService {
     id: 'talks',
     desc: `<h1 class="vhs-message">Edge Talks</h1>
           <br>
-          <p>The goal of EDGE Talks is to inform and educate students in an accessible way. Our speakers take the stage to present valuable new knowledge, innovative researches and ideas, worth spreading. Through EDGE Talks, students are exposed to speakers who are doing cutting edge work across numerous causes. EDGE Talks aims to inspire innovation and broaden your horizons</p>
-          <h2 class="guest_caption ">Past Guests</h2>
-          <div class="container">
-            <div class="row">
-                <div class="col-sm-4">
-                <img src="../../assets/mega-events/edge_night/prvn.webp" alt="" srcset="" width="200">
-                <p class="guest_caption">Rj Praveen</p>
-                </div>
-                <div class="col-sm-4">
-                <img src="../../assets/mega-events/edge_night/tvf.webp" alt="" srcset="" width="200">
-                <p class="guest_caption">TVF</p>
-                </div>
-                <div class="col-sm-4">
-                <img src=".../../assets/mega-events/edge_night/csghosh.webp" alt="" srcset="" width="200">
-                <p class="guest_caption">Chandra Shekhar Ghosh</p>
-                </div>
-            </div>
-            <div class="row">
-            <div class="col-sm-4">
-            <img src=".../../assets/mega-events/edge_night/cbhagat.webp" alt="" srcset="" width="200">
-            <p class="guest_caption">Chetan Bhagat</p>
-            </div>
-            <div class="col-sm-4">
-            <img src="../../assets/mega-events/edge_night/btwala.webp" alt="" srcset="" width="200">
-            <p class="guest_caption">Yahya Bootwala</p>
-            </div>
-            <div class="col-sm-4">
-            </div>
-          </div>
-
-          <h2 class="guest_caption ">Intended Guests</h2>
-          <div class="row">
-                <div class="col-sm-4">
-                <img src="../../assets/mega-events/edge_night/sganguly.webp" alt="" srcset="" width="200">
-                <p class="guest_caption">Sourav Ganguly</p>
-                </div>
-                <div class="col-sm-4">
-                <img src="../../assets/mega-events/edge_night/bguy.webp" alt="" srcset="" width="200">
-                <p class="guest_caption">Kiran Dutta(Your Bong Guy)</p>
-                </div>
-                <div class="col-sm-4">
-                <img src=".../../assets/mega-events/edge_night/mir.webp" alt="" srcset="" width="200">
-                <p class="guest_caption">Mir Afsar Ali</p>
-                </div>
-            </div>
-          </div>
-          `
+          <h2>""An idea is salvation by imagination."</h2>
+          <br>
+          <p>The goal of EDGE Talks is to inform and educate students in an accessible way. Our speakers take the stage to present valuable new knowledge, innovative researches and ideas, worth spreading. Through EDGE Talks, students are exposed to speakers who are doing cutting edge work across numerous causes. EDGE Talks aims to inspire innovation and broaden your horizons. Stay tuned for further updates.</p>`
 
   },
   {

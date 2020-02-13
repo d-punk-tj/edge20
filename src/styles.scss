@@ -80,6 +80,10 @@ body:after {
     top: 22vh
 }
 
+.guest_caption{
+  text-align: center;
+  padding: 20px;
+}
 @keyframes blue-me {
 	28%{ background: #000; }
   	30% { background:rgba(#000,0.95);}

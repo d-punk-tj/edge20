@@ -139,7 +139,7 @@ export class MegaEventService {
             </div>
           </div>
 
-          <h2 class="guest_caption ">Intended Guests</h2>
+          <h2 class="guest_caption ">Past Guests</h2>
           <div class="row">
                 <div class="col-sm-4">
                 <img src="../../assets/mega-events/edge_night/sganguly.webp" alt="" srcset="" width="200">
