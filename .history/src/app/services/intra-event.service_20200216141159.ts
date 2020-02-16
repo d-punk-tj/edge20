@@ -434,6 +434,7 @@ export class IntraEventService {
                   <li>The room referee's decisions will be final.</li>
                 </ul>
                 <h3>Contact</h3>
+                <p>ANIRBAN SUR : +91 89812 57401</p>
                 <p>SUBHAJIT KONAR : +91 94745 94123</p>`
         },
         {
@@ -467,8 +468,8 @@ export class IntraEventService {
                 <h3>Round 3</h3>
                 <p>Final Round: 4 finalists will play a LAN match in final. Among them 1st 2nd 3rd winners will be decided. Laps: 3 laps.</p>
                 <h3>Contacts:</h3>
-                <p>Srinjoy Chatterjee- 8240227648</p>
-                `
+                <p>SUJOY DAS : 91-90731 07423</p>
+                <p>SRINJOY CHATTERJEE : +91 82402 27648</p>`
         }
       ]
     },

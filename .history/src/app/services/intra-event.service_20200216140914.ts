@@ -386,8 +386,8 @@ export class IntraEventService {
                 </ul>
                 <p>(NOTE: In case of deadlocks, the admin’s decision is final and irrevocable)</p>
                 <h3>Contacts</h3>
-                <p>Sarnav Dutta- 8282827171</p>
-                <p>Mainak Kundu- 7890694261</p>`
+                <p>SWASTIK SAMADDAR CHOWDHURY : +91-98744 36481</p>
+                <p>DEEPANJAN SEN :  +91-82401 06266</p>`
         },
         {
           id: "fifa11",
@@ -412,8 +412,8 @@ export class IntraEventService {
                 </ul>
                 <p>(NOTE: The admin’s decision, in any case, is final and irrevocable)</p>
                 <h3>Contacts</h3>
-                <p>Rohan Chakraborty- 7908613915</p>
-                <p>Prithwish Pramanick- 8013643134</p>`
+                <p>ARKADEEP DEY: 90518 22311</p>
+                <p>SUSMIT GHOSH: 79803 69954</p>`
         },
         {
           id: "pubg",
@@ -434,6 +434,7 @@ export class IntraEventService {
                   <li>The room referee's decisions will be final.</li>
                 </ul>
                 <h3>Contact</h3>
+                <p>ANIRBAN SUR : +91 89812 57401</p>
                 <p>SUBHAJIT KONAR : +91 94745 94123</p>`
         },
         {
@@ -467,8 +468,8 @@ export class IntraEventService {
                 <h3>Round 3</h3>
                 <p>Final Round: 4 finalists will play a LAN match in final. Among them 1st 2nd 3rd winners will be decided. Laps: 3 laps.</p>
                 <h3>Contacts:</h3>
-                <p>Srinjoy Chatterjee- 8240227648</p>
-                `
+                <p>SUJOY DAS : 91-90731 07423</p>
+                <p>SRINJOY CHATTERJEE : +91 82402 27648</p>`
         }
       ]
     },
@@ -492,10 +493,7 @@ export class IntraEventService {
                   <li>NOT ALLOWED: HDR, Selective Colouring, Manipulation of pictures are not allowed. Tempering with EXIF is also not allowed.</li>
                   <li>ALLOWED: Mild post processing like Colour correction, Light editing, Sharpness enhancements are allowed. Cropping upto 15% is allowed. Proper aspect ratios should be maintained.</li>
                 </ul>
-                <h3>Contact</h3>
-                <p>Arghyadeep- 8017318643</p>
-                <p>Malakar- 7044759803</p>
-                `
+                <h3>Contact</h3>`
         },
         {
           id: "crumbs",
@@ -515,9 +513,7 @@ export class IntraEventService {
                   <li>Cropping upto 15% is allowed.</li>
                   <li>Proper Aspect ratios should be maintained.</li>
                 </ul>
-                <h3>Contact</h3>
-                <p>Arghyadeep- 8017318643</p>
-                <p>Ushnik- 8479809399</p>`
+                <h3>Contact</h3>`
         },
       ]
     },

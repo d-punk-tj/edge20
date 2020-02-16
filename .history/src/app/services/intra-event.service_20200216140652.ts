@@ -386,8 +386,8 @@ export class IntraEventService {
                 </ul>
                 <p>(NOTE: In case of deadlocks, the admin’s decision is final and irrevocable)</p>
                 <h3>Contacts</h3>
-                <p>Sarnav Dutta- 8282827171</p>
-                <p>Mainak Kundu- 7890694261</p>`
+                <p>SWASTIK SAMADDAR CHOWDHURY : +91-98744 36481</p>
+                <p>DEEPANJAN SEN :  +91-82401 06266</p>`
         },
         {
           id: "fifa11",
@@ -412,8 +412,8 @@ export class IntraEventService {
                 </ul>
                 <p>(NOTE: The admin’s decision, in any case, is final and irrevocable)</p>
                 <h3>Contacts</h3>
-                <p>Rohan Chakraborty- 7908613915</p>
-                <p>Prithwish Pramanick- 8013643134</p>`
+                <p>ARKADEEP DEY: 90518 22311</p>
+                <p>SUSMIT GHOSH: 79803 69954</p>`
         },
         {
           id: "pubg",
@@ -434,6 +434,7 @@ export class IntraEventService {
                   <li>The room referee's decisions will be final.</li>
                 </ul>
                 <h3>Contact</h3>
+                <p>ANIRBAN SUR : +91 89812 57401</p>
                 <p>SUBHAJIT KONAR : +91 94745 94123</p>`
         },
         {
@@ -467,8 +468,8 @@ export class IntraEventService {
                 <h3>Round 3</h3>
                 <p>Final Round: 4 finalists will play a LAN match in final. Among them 1st 2nd 3rd winners will be decided. Laps: 3 laps.</p>
                 <h3>Contacts:</h3>
-                <p>Srinjoy Chatterjee- 8240227648</p>
-                `
+                <p>SUJOY DAS : 91-90731 07423</p>
+                <p>SRINJOY CHATTERJEE : +91 82402 27648</p>`
         }
       ]
     },
@@ -492,10 +493,7 @@ export class IntraEventService {
                   <li>NOT ALLOWED: HDR, Selective Colouring, Manipulation of pictures are not allowed. Tempering with EXIF is also not allowed.</li>
                   <li>ALLOWED: Mild post processing like Colour correction, Light editing, Sharpness enhancements are allowed. Cropping upto 15% is allowed. Proper aspect ratios should be maintained.</li>
                 </ul>
-                <h3>Contact</h3>
-                <p>Arghyadeep- 8017318643</p>
-                <p>Malakar- 7044759803</p>
-                `
+                <h3>Contact</h3>`
         },
         {
           id: "crumbs",
@@ -515,9 +513,7 @@ export class IntraEventService {
                   <li>Cropping upto 15% is allowed.</li>
                   <li>Proper Aspect ratios should be maintained.</li>
                 </ul>
-                <h3>Contact</h3>
-                <p>Arghyadeep- 8017318643</p>
-                <p>Ushnik- 8479809399</p>`
+                <h3>Contact</h3>`
         },
       ]
     },
@@ -575,9 +571,9 @@ export class IntraEventService {
                   <li>Comply with the Weights and Dimensions restrictions to avoid penalties.</li>
                 </ul>
                 <h3>Contact</h3>
-                <p>Souvik- 8777686406</p>
-                <p>Vivek- 7631922591</p>
-               `
+                <p>Sanjit Shaw - 9093058470</p>
+                <p>Vishal Kumar - 7991176304</p>
+                <p>Saptarshi Bhattacharjee - 9051159470</p>`
         }
       ]
     },
@@ -608,8 +604,8 @@ export class IntraEventService {
                 <h3>Round 2</h3>
                 <p>In this round, the top 3 teams who are able to score the maximum points are declared as the winners.</p>
                 <h3>Contact</h3>
-                <p>Akash- 9007614984</p>
-                <p>Angana- 8584805352</p>`
+                <p>Alvin Karkun - 7890150690</p>
+                <p>Sankarshan Sur - 9830792503</p>`
         },
         {
           id: "yp",
@@ -632,8 +628,8 @@ export class IntraEventService {
                   <li>The best two speakers from each “For” and “Against” house will be awarded.</li>
                 </ul>
                 <h3>Contact</h3>
-                <p>Jaya Priyadarshini- 9073112644</p>
-                <p>Aashu- 9163454702</p>`
+                <p>Alvin Karkun - 7890150690</p>
+                <p>Ankit Anjan - 7739793511</p>`
         },
         {
           id: "ey",
@@ -654,8 +650,8 @@ export class IntraEventService {
                 <h3>Round 2</h3>
                 <p>This will be a practical on spot round varying from electronics circuit design, microprocessor designing or simulations. The top 3 teams with efficient results will be declared as the winners.</p>
                 <h3>Contact</h3>
-                <p>Jaya Priyadarshini- 9073112644</p>
-                <p>Aashu- 9163454702</p>`
+                <p>Alvin Karkun - 7890150690</p>
+                <p>Soumalya Ghosh - 8582834183</p>`
         }
       ]
     },
@@ -687,8 +683,8 @@ export class IntraEventService {
                 <h3>Round 2</h3>
                 <p>In this model making Round all the members of the team have to participate. Each team will be allotted with some amount of virtual money. The team will have to purchase the equipment and build the model with the same.</p>
                 <h3>Contact</h3>
-                <p>Amit Mondal- 8697435197</p>
-                <p>Arnab- 9775396520</p>`
+                <p>Medha Mishra - 8013290587</p>
+                <p>Parshati Chaudhury - 8961807090</p>`
         }
       ]
     },
