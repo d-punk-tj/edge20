@@ -16,7 +16,7 @@ export class HomeService {
   },
   {
     id: 'merch',
-    desc: `<h1 class="vhs-message">Merchandise</h1>
+    desc: `<h1>Merchandise</h1>
     <p>Get your hands on the official merchandise of EDGE_20 and "Revamp your swag".</p>
     <p>Priced at INR 250 each.</p>
     <p>Pre book your merchandise by paying:- 
@@ -24,8 +24,8 @@ export class HomeService {
     <p>Those who are buying the merchandise in both the colours i.e white and black, can avail a discount of Rs 40 on the total amount.</p>
     <p>For the ones who have already bought the coupon, the discount that has been mentioned in it can also be availed in addition to the above mentioned one.</p>
     <br>
-    <img src="/assets/m1.jpeg" alt="Merchandise" style="padding:20px">
-    <img src="/assets/m2.jpeg" alt="Merchandise" style="padding:20px">
+    <img src="/assets/m1.jpeg" alt="Merchandise">
+    <img src="/assets/m2.jpeg" alt="Merchandise">
     <br>
     <p><b>Hurry up & suit up in your geek armour!</b></p>
           `
@@ -95,7 +95,9 @@ export class HomeService {
     <div class="col-sm-6">
     <img src="/assets/ca.jpeg" alt="Campus Ambassador">
     </div>
-    </div>  
+    </div>
+    
+    
           
           `
   },

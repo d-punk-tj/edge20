@@ -68,7 +68,7 @@ export class IntraEventService {
                 </ul>
                 <h3>Contacts</h3>
                 <p>Abhishek Das - 7033534472</p>
-                <p>Nishi Patwari – 9051920760</p>`
+                <p>Avnish Singh - 9162023260</p>`
         },
         {
           id: "codeout",
@@ -85,8 +85,8 @@ export class IntraEventService {
                   <li>Link will be available on a later date.</li>
                 </ul>
                 <h3>Contact</h3>
-                <p>Indranil Chowdhury – 9635874015</p>
-                <p>Shekhar Agarwal - 9883999829</p>`
+                <p>Raja Sachin - 9062647976</p>
+                <p>Avnish Singh - 9162023260</p>`
         },
         {
           id: "webdev",
@@ -108,8 +108,8 @@ export class IntraEventService {
                 <h3>Round 2</h3>
                 <p>Build a website out of the given WireFrame.</p>
                 <h3>Contact</h3>
-                <p>Indranil Chowdhury – 9635874015</p>
-                <p>Tejeshwar Kumar- 7004854041</p>`
+                <p>Abhishek Das - 7033534472</p>
+                <p>Avnish Singh - 9162023260</p>`
         }
       ]
     },
@@ -160,8 +160,9 @@ export class IntraEventService {
                 <p>SCORE = 100*[Number of blocks placed] +150*[Number of goals] +200*[Number of jackpots] -20*[Number of obstacles touched] -50*[Number of times ball touches blocks] -100*[Second timeout taken] + [time left]</p>
                 <p>Whoever scores the maximum number of goals, wins the competition</p>
                 <h3>Contacts</h3>
-                <p>Akash-  9038239197</p>
-                <p>Prashant- 9830945321</p>`
+                <p>Ashutosh Priyadarshi- 8697276841</p>
+                <p>Sujay Basak- 8013821259</p>
+                <p>Rajeev Ranjan-8820879972</p>`
         },
         {
           id: "robosoccer",
@@ -205,9 +206,9 @@ export class IntraEventService {
                 <p>FINAL SCORE: 200*(No. of blocks placed) + 2*(time left in sec)-30*(no. of hand touches)-100*(for 2nd time-out) -300(for restart)</p>
                 <p>Whoever scores the maximum number of goals, wins the competition</p>
                 <h3>Contacts</h3>
-                <p>Sourav Bohra- 9831175078</p>
-                <p>Sourav Soni- 8961469304</p>
-                <p>Shubham- 8777742613</p>`
+                <p>Ashutosh Priyadarshi- 8697276841</p>
+                <p>Sujay Basak- 8013821259</p>
+                <p>Rajeev Ranjan-8820879972</p>`
         },
         {
           id: "seguidor",
@@ -282,8 +283,8 @@ export class IntraEventService {
                 <p>In this round bot have to stop at finishing points.</p>
                 <p>Scoring: 1000 – 300*[No. of skips]-150 [If restart] - 100*[No. of timeouts] - 50*[No. of hand touch] - 2*[Time in seconds] + 50*[checkpoints correctly detected] + 100*[if stop at finishing points]</p>
                 <h3>Contact</h3>
-                <p> Satyaki- 8274038600</p>
-                `
+                <p>Sudhanshu Shivam- 6204975235</p>
+                <p>Sourav Ghosh- 7980756784</p>`
         },
         {
           id: "block",
@@ -323,8 +324,8 @@ export class IntraEventService {
                 <p>In this round bot have to stop at finishing point and show the number of obstacles present through out the track.</p>
                 <p>Scoring: 1000 – 300*[No. of skips]-150 [If restart] - 100*[No. of timeouts] - 50*[No. of hand touch] - 2*[Time in seconds] + 50*[checkpoints correctly detected] + 50*[no of obstacles] + 100[if stop at finishing points] +200[if the bot shows the total no. of obstacles correctly]</p>
                 <h3>Contact</h3>
-                <p>Ranjan- 9635497748</p>
-                <p>Gaurab- 8436014685</p>`
+                <p>Sudhanshu Shivam- 6204975235</p>
+                <p>Sourav Ghosh- 7980756784</p>`
         },
         {
           id: "rumble",
@@ -345,8 +346,9 @@ export class IntraEventService {
                   <li>The coordinators present there should give out the final verdict. No arguments with the coordinators will be tolerated.</li>
                 </ul>
                 <h3>Contact</h3>
-                <p>Abhishek Jha- 7930212750</p>
-                <p>Mann Mohan- 7870268335</p>`
+                <p>Ashutosh Priyadarshi- 8697276841</p>
+                <p>Sujay Basak- 8013821259</p>
+                <p>Rajeev Ranjan-8820879972</p>`
         }
       ]
     },

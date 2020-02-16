@@ -16,7 +16,7 @@ export class HomeService {
   },
   {
     id: 'merch',
-    desc: `<h1 class="vhs-message">Merchandise</h1>
+    desc: `<h1>Merchandise</h1>
     <p>Get your hands on the official merchandise of EDGE_20 and "Revamp your swag".</p>
     <p>Priced at INR 250 each.</p>
     <p>Pre book your merchandise by paying:- 
@@ -95,7 +95,9 @@ export class HomeService {
     <div class="col-sm-6">
     <img src="/assets/ca.jpeg" alt="Campus Ambassador">
     </div>
-    </div>  
+    </div>
+    
+    
           
           `
   },

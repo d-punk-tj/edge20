@@ -192,8 +192,10 @@ export class EventService {
               <li>SURVIVAL OF THE FASTEST: There is no score system. Whoever reaches the “FINISH” point first, wins the race. However, a team cannot opt for more than 2 TIMEOUTS.</li>
             </ul>
             <h3>Contact</h3>
-            <p>Akash-  9038239197</p>
-            <p>Prashant- 9830945321</p>`
+            <p>Ashutosh Priyadarshi - 8697276841</p>
+            <p>Rajeev Ranjan - 8820879972</p>
+            <p>Wahid Hussain - 8583908125</p>
+            <p>Sujay Basak - 8013821259</p>`
         },
         {
           id: "blitzkrieg",
@@ -276,9 +278,10 @@ export class EventService {
               <li>Specific scoring will be updated soon.</li>
             </ul>
             <h3>Contact</h3>
-            <p>Sourav Bohra- 9831175078</p>
-            <p>Sourav Soni- 8961469304</p>
-            <p>Shubham- 8777742613</p>`
+            <p>Ashutosh Priyadarshi - 8697276841</p>
+            <p>Rajeev Ranjan - 8820879972</p>
+            <p>Wahid Hussain - 8583908125</p>
+            <p>Sujay Basak - 8013821259</p>`
         },
         {
           id: "liftnlay",
@@ -318,9 +321,10 @@ export class EventService {
             <h3>Scoring Rules</h3>
             <p>FINAL SCORE: 200*(No. of blocks placed) + 2*(time left in sec) - 30*(no. of hand touches) - 100*(for 2nd time-out) - 300(for restart)</p>
             <h3>Contact</h3>
-            <p>Abhishek Jha- 7930212750</p>
-            <p> Mann Mohan- 7870268335</p>
-            `
+            <p>Ashutosh Priyadarshi - 8697276841</p>
+            <p>Rajeev Ranjan - 8820879972</p>
+            <p>Wahid Hussain - 8583908125</p>
+            <p>Sujay Basak - 8013821259</p>`
         },
         {
           id: "stalker",
@@ -363,8 +367,8 @@ export class EventService {
               <li>Penalty of 50 points will be imposed for each restart.</li>
             </ul>
             <h3>Contact</h3>
-            <p>Apratim- 8697282982</p>
-            <p>Debarghya- 8013586905</p>`
+            <p>Sudhanshu Shivam - 8697892729</p>
+            <p>Sourav Ghosh - 8013174091</p>`
         },
         {
           id: "jigsaw",
@@ -406,8 +410,8 @@ export class EventService {
               <li>Penalty of 50 Points will be imposed for each restart.</li>
             </ul>
             <h3>Contact</h3>
-            <p>Ranjan- 9635497748</p>
-            <p>Gaurab- 8436014685</p>`
+            <p>Sudhanshu Shivam - 8697892729</p>
+            <p>Sourav Ghosh - 8013174091</p>`
         },
         {
           id: "wallstreet",

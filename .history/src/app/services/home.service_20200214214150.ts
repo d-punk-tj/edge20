@@ -95,7 +95,9 @@ export class HomeService {
     <div class="col-sm-6">
     <img src="/assets/ca.jpeg" alt="Campus Ambassador">
     </div>
-    </div>  
+    </div>
+    
+    
           
           `
   },
