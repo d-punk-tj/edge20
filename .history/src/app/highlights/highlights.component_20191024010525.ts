@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class HighlightsComponent implements OnInit {
 
   images = [];
-  items = 43;
+  items = 65;
 
   constructor() {
     for(let i=0;i<this.items/3;i++) {
