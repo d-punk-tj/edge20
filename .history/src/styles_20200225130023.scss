@@ -82,10 +82,6 @@ body:after {
     position: relative;
     top: 22vh
 }
-::-webkit-scrollbar {
-  width: 0px;  /* Remove scrollbar space */
-  background: transparent;  /* Optional: just make scrollbar invisible */
-}
 
 .guest_caption{
   text-align: center;

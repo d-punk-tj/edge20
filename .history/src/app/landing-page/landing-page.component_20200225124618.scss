@@ -19,9 +19,6 @@
   }
   
   footer {
-    position: fixed;
-    left: calc(58vw - 15vh);
-    bottom: 0;
     text-align: center;
     padding-bottom: 10px;
   
@@ -60,14 +57,12 @@
     p {
       display: inline;
     }
-
-    
   
     footer {
       position: fixed;
-      left: 40px;
-      bottom: 10px;
-      width: 100%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
       text-align: center;
       margin-top: 15vh;
       padding: 0 5vw;

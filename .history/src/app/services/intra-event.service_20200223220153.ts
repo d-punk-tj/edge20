@@ -357,74 +357,74 @@ export class IntraEventService {
           class: "deg20",
           desc: `<h1>CS 1.6</h1>
                 <p>It consists of team based action where two teams battle it out with gun and strategies. Restricted to Techno India college students only. 5v5 standard matchmaking rules as always.</p>
-<p>Offense:	Terrorist Side</p>
+Offense:	Terrorist Side
 Defense:	Counter-Terrorist Side
-<p>Round:	One 1 minute 45 second cycle on a map</p>
-<p>Half:	6 rounds of play on a defending or offensive side</p>
-<p>Half time:	The period between halves in which teams swap sides</p>
-<p>Match:	First team to win 7 total rounds, or the single overtime round</p>
-<p>Overtime:	In the case of a 6-6 score at the end of regulation play, 3 overtime rounds will be played. The start money for each team will be set at $10,000 per player for overtime.</p>
-<p>Game Format:</p>
+Round:	One 1 minute 45 second cycle on a map
+Half:	6 rounds of play on a defending or offensive side
+Half time:	The period between halves in which teams swap sides
+Match:	First team to win 7 total rounds, or the single overtime round
+Overtime:	In the case of a 6-6 score at the end of regulation play, 3 overtime rounds will be played. The start money for each team will be set at $10,000 per player for overtime.
+Game Format:
 
 Competition Method:	5 vs. 5
-<p>Players:	10 total (5 on each team)</p>
-<p>Rounds:	12 rounds for regulation play</p>
-<p>Max Rounds Format:	6 rounds as Offense, and 6 rounds as Defense per team until the victory condition is met</p>
-<p>Victory Condition:	The first team to win 6rounds in regulation or the team that wins the overtime period.</p>
-<p>Buytime:	15 seconds</p>
-<p>Startmoney:	$800 for regulation play, $10,000 for overtime periods</p>
-<p>Freezetime:	15 seconds</p>
-<p>C4 Timer:	35 seconds</p>
-<p>Map Pool:</p>
+Players:	10 total (5 on each team)
+Rounds:	12 rounds for regulation play
+Max Rounds Format:	6 rounds as Offense, and 6 rounds as Defense per team until the victory condition is met
+Victory Condition:	The first team to win 6rounds in regulation or the team that wins the overtime period.
+Buytime:	15 seconds
+Startmoney:	$800 for regulation play, $10,000 for overtime periods
+Freezetime:	15 seconds
+C4 Timer:	35 seconds
+Map Pool:
 
-<p>de_dust2</p>
-<p>de_inferno</p>
-<p>de_nuke</p>
-<p>de_train</p>
-<p>*The map pool may be changed prior to the tournament. Players will be informed of any such changes as soon as possible.</p>
+de_dust2
+de_inferno
+de_nuke
+de_train
+*The map pool may be changed prior to the tournament. Players will be informed of any such changes as soon as possible.
 Side Selection:
 
-<p>By knife round / coin toss, at admin discretion</p>
-<p>At half time, teams will switch sides</p>
-<p>Half time will be a maximum of two minutes, at which point both teams must be ready</p>
-<p>In the event of overtime, teams will switch sides and play an additional 6 rounds (3 on each side) with $10,000 start money; if the score is still tied, another overtime period will be played to determine the winner</p>
-<p>All players names must be in the format of their team tag + gaming alias </p>
+By knife round / coin toss, at admin discretion
+At half time, teams will switch sides
+Half time will be a maximum of two minutes, at which point both teams must be ready
+In the event of overtime, teams will switch sides and play an additional 6 rounds (3 on each side) with $10,000 start money; if the score is still tied, another overtime period will be played to determine the winner
+All players names must be in the format of their team tag + gaming alias 
 (i.e. WCG | Bob)
-<p>Setup and Configuration:</p>
+Setup and Configuration:
 
-<p>Non-standard game settings or third party applications that affect game play are not permitted. Players found using either will be penalized at the administrators´ discretion.</p>
-<p>Crouch hopping will not be allowed.</p>
-<p>Tournament Guidelines:</p>
+Non-standard game settings or third party applications that affect game play are not permitted. Players found using either will be penalized at the administrators´ discretion.
+Crouch hopping will not be allowed.
+Tournament Guidelines:
 
-<p>Any disconnection issues that cannot be resolved by the players in the match must be brought to the attention of an admin immediately</p>
-<p>Any use of game exploits, cheats, or any other play deemed “unfair” by an admin may result in disciplinary action up to and including disqualification from the tournament</p>
-<p>All players must save game replays and end-of-game score screen shots; in the event of a dispute, these assets will be used as evidence to determine the result of the dispute</p>
-<p>Once the match starts, players will not be able to dispute a match on the grounds of match settings</p>
-<p>Each team will be responsible for checking the other team's roster is valid BEFORE the match begins, disputes regarding teams using un-rostered players will not be valid after the completion of the match</p>
-<p>Any intentional abuse of "pause" by a player on the server will be result in disciplinary action to be decided by an administrator</p>
-<p>In-Game Messaging and Communication:</p>
+Any disconnection issues that cannot be resolved by the players in the match must be brought to the attention of an admin immediately
+Any use of game exploits, cheats, or any other play deemed “unfair” by an admin may result in disciplinary action up to and including disqualification from the tournament
+All players must save game replays and end-of-game score screen shots; in the event of a dispute, these assets will be used as evidence to determine the result of the dispute
+Once the match starts, players will not be able to dispute a match on the grounds of match settings
+Each team will be responsible for checking the other team's roster is valid BEFORE the match begins, disputes regarding teams using un-rostered players will not be valid after the completion of the match
+Any intentional abuse of "pause" by a player on the server will be result in disciplinary action to be decided by an administrator
+In-Game Messaging and Communication:
 
-<p>Competitors are not allowed to use global in-game chat in an abusive, offensive, vulgar or spamming manner at any point during a match. This includes pre-match, intermission and post-match periods as well.</p>
-<p>When a match is live, only team captains are allowed to use global in-game messages between rounds or at half time, other players must use team-only in-game messages</p>
-<p>Violators of these rules are subject to penalties at the administrators’ discretion, which may include player suspension(s) or forfeiture of the match.</p>
-<p>All match disputes must be filed by a team captain during regulation play, or within 5 minutes after the match’s conclusion</p>
-<p>Violations</p>
-<p>Slient or unrechable bomb plants – The bomb must be audible and planted in a position that is accessible without a boost</p>
+Competitors are not allowed to use global in-game chat in an abusive, offensive, vulgar or spamming manner at any point during a match. This includes pre-match, intermission and post-match periods as well.
+When a match is live, only team captains are allowed to use global in-game messages between rounds or at half time, other players must use team-only in-game messages
+Violators of these rules are subject to penalties at the administrators’ discretion, which may include player suspension(s) or forfeiture of the match.
+All match disputes must be filed by a team captain during regulation play, or within 5 minutes after the match’s conclusion
+Violations
+Slient or unrechable bomb plants – The bomb must be audible and planted in a position that is accessible without a boost
 
-<p>Flashbang exploits - No flashbang exploits will be allowed</p>
+Flashbang exploits - No flashbang exploits will be allowed
 
-<p>Use of any unapproved textures or models - Only default CS 1.6 models will be allowed</p>
+Use of any unapproved textures or models - Only default CS 1.6 models will be allowed
 
-<p>Punishment for any violation will be at the sole discretion of the administrators</p>
+Punishment for any violation will be at the sole discretion of the administrators
 
-<p>Unintentional Issues:</p>
+Unintentional Issues:
 
-<p>Server Crash:	The server machine crashes/freezes/etc. causing the match server to stop responding</p>
-<p>Solution:	An administrator will restart the server, stop the tournament clock, and play will continue from the point of disruption. Points will be added to the amounts totaled before the crash, and the tournament clock will be restarted once the game is live again.</p>
-<p>Client Crash:	A player’s computer crashes/freezes/etc. causing the participant to be unable to continue play</p>
-<p>Solution:	Play will be paused by a team captain at the freezetime of the NEXT round until the client can reconnect OR 5 mintues passes, whichever comes first.</p>
-<p>Rule Changes:</p>
-<p>The Administrators reserve the right to modify the rules as needed. This includes changes due to software updates or releases, event organizer decisions and all other changes deemed necessary to run a successful tournament. Teams are responsible to check the rules on a regular basis and prior to the event to ensure they are in complete compliance. Teams must understand that rules listed are guidelines to ensure fair and competitive play and are subject to interpretation by the administrators based on the spirit of the game.</p>
+Server Crash:	The server machine crashes/freezes/etc. causing the match server to stop responding
+Solution:	An administrator will restart the server, stop the tournament clock, and play will continue from the point of disruption. Points will be added to the amounts totaled before the crash, and the tournament clock will be restarted once the game is live again.
+Client Crash:	A player’s computer crashes/freezes/etc. causing the participant to be unable to continue play
+Solution:	Play will be paused by a team captain at the freezetime of the NEXT round until the client can reconnect OR 5 mintues passes, whichever comes first.
+Rule Changes:
+The Administrators reserve the right to modify the rules as needed. This includes changes due to software updates or releases, event organizer decisions and all other changes deemed necessary to run a successful tournament. Teams are responsible to check the rules on a regular basis and prior to the event to ensure they are in complete compliance. Teams must understand that rules listed are guidelines to ensure fair and competitive play and are subject to interpretation by the administrators based on the spirit of the game.
 
                 <h3>Contacts</h3>
                 <p>Sarnav Dutta- 8282827171</p>
@@ -960,9 +960,9 @@ budget utilized. In case of a tie, marks of previous day will be counted for dec
             <h5>Competition timeline-</h5>
     
     <h5>Round 1- Online: </h5>
-                <li>Register at - </li>
-                <li>The teams must apply with their pitch deck.</li>
-                <li>After Result declaration – Submission of Business Model Canvas</li>
+                <li>I. Register at - </li>
+                <li>II. The teams must apply with their pitch deck.</li>
+                <li>III. After Result declaration – Submission of Business Model Canvas</li>
     
     <h5>Round 2 - Offline: </h5>
                   <li>Pitch Right - Best start-ups idea will be selected to pitch their ideas in a 180-second elevator ride; to win an investor's heart, you have to get your own "elevator pitch" ready.</li>
@@ -972,7 +972,7 @@ budget utilized. In case of a tie, marks of previous day will be counted for dec
                 <li>Originality in the research work.</li>
                 <li>Volume of the work carried out.</li>
                 <li>Novelty in thinking.</li>
-    </ul>
+    
     <h5>Contacts:</h5>
     <p>Sumit: 9572683975</p>
     <p>Sougata: 8250218868</p>
@@ -980,22 +980,22 @@ budget utilized. In case of a tie, marks of previous day will be counted for dec
 
 
             <h3>B QUIZ-</h3>
-            <p>This is a team event where each team is quizzed on relevant business topics and the market scenario.</p>
+            <p>This is a team event where each team is quizzed on relevant business topics and the market scenario.
 
-            <h5>Rules</h5>
-            <ul>
-                <li>Team can consist of maximum of 2 members (even solo participation accepted).</li>
-                <li>This quiz is open to anyone under 25 years of age.</li>
-                <li>Valid ID cards need to be produced at the time of on-spot registration.</li>
-                <li>Each member has to be registered individually.</li>
-                <li>Any form of cheating will lead to direct disqualification.</li>
-                <li>The Prelims will be a set of 25 questions.</li>
-                <li>The top 8 teams will make it to the finals.</li>
-                <li>It is a BizTech quiz. The questions will be from the fields of Technology and Business both.</p></li>
-            </ul>
-                <h5>Contacts:</h5>
-                <p>Poulami: 9002215596</p>
-                <p>Rounak: 7278808933</p>
+            Rules-
+            
+                • Team can consist of maximum of 2 members (even solo participation accepted).
+                • This quiz is open to anyone under 25 years of age.
+                • Valid ID cards need to be produced at the time of on-spot registration.
+                • Each member has to be registered individually.
+                • Any form of cheating will lead to direct disqualification.
+                • The Prelims will be a set of 25 questions.
+                • The top 8 teams will make it to the finals.
+                • It is a BizTech quiz. The questions will be from the fields of Technology and Business both.</p>
+
+                <p>Contacts:
+                Poulami: 9002215596
+                Rounak: 7278808933</p>
             `
     }
   ];

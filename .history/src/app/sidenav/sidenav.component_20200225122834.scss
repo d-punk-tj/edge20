@@ -27,11 +27,9 @@
     /* When the sflex: 1;idenav is fixed, don't constrain the height of the sidenav container. This allows the
        `<body>` to be our scrolling element for mobile layouts. */
     flex: 1 0 auto;
+    top:21vh !important;
   }
   
-  .example-is-mobile .mat-drawer{
-    top:21vh !important;
-}
   .mat-drawer{
       top:15vh !important;
   }

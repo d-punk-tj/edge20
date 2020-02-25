@@ -19,7 +19,7 @@ export class IntraComponent implements OnInit {
     {name: "events/food-for-fun.svg", class: "deg165", caption: "Food For Fun", id: 'fff'},
     {name: "events/create-it.svg", class: "deg195", caption: "Create It", id: 'ci'},
     {name: "events/infocus.svg", class: "deg225", caption: "Infocus", id: 'infocus'},
-    {name: "events/money-matters.svg", class: "deg270", caption: "ciic money matters", id: 'ciic'}
+    {name: "events/ciic.svg", class: "deg270", caption: "CIIC Stage", id: 'ciic'}
   ];
 
   constructor(private router: Router, private ngxSmartModalService : NgxSmartModalService, private intraEventService: IntraEventService) { }

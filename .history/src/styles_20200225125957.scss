@@ -76,15 +76,22 @@ body:after {
  z-index: -1;
  content: "";
 }
+body::-webkit-scrollbar {
+  width: 0.2em;
+}
 
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+background-color: red;
+outline: 1px solid red;
+}
 .updating{
    color: white;
     position: relative;
     top: 22vh
-}
-::-webkit-scrollbar {
-  width: 0px;  /* Remove scrollbar space */
-  background: transparent;  /* Optional: just make scrollbar invisible */
 }
 
 .guest_caption{
