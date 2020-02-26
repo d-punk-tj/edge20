@@ -27,7 +27,7 @@ export class IntraComponent implements OnInit {
   ngOnInit() {
   }
 
-  onEventClick(id: string, name: string) {
+  onEventClick(id: string, name) {
     if (id==='ciic'){
       const event = this.intraEventService.getDetails('ciic');
       this.ngxSmartModalService.resetModalData('myModal');
@@ -35,7 +35,7 @@ export class IntraComponent implements OnInit {
       this.ngxSmartModalService.getModal('myModal').open();
       return;
     }
-    this.router.navigate(['/intra', id],{queryParams : {title : name}});
+    this.router.navigate(['/intra', id,{queryParams : {title : name}}]);
   }
 
   showResult() {

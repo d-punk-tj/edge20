@@ -5,7 +5,7 @@
     <div *ngFor="let item of items">
       <div class="col-xs-6 col-sm-4 col-md-2 " >
       <div class="icon {{item.class}}">
-        <a (click)="onEventClick(item.id, item.caption)">
+        <a (click)="onEventClick(item.id,item.caption)">
           <app-icon [icon]="item.name" [name]="item.caption"></app-icon>
         </a>
       </div>
