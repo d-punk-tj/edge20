@@ -37,7 +37,7 @@ export class SidenavComponent implements OnInit {
 
 
   onclick(){
-    if(this.mobileQuery.matches){
+    if(this.mobileQuery){
       this.drawer.toggle();
     }
   }

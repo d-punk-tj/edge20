@@ -13,7 +13,7 @@ import { MatSidenav } from '@angular/material';
 })
 export class SidenavComponent implements OnInit {
 
-  @ViewChild('snav') drawer: MatSidenav;
+  @ViewChild('drawer') drawer: MatSidenav;
   mobileQuery: MediaQueryList;
   faFacebook = faFacebook;
   faTwitter = faTwitter;
@@ -37,8 +37,8 @@ export class SidenavComponent implements OnInit {
 
 
   onclick(){
-    if(this.mobileQuery.matches){
-      this.drawer.toggle();
+    if(this.mobileQuery){
+      this.drawer.close();
     }
   }
   ngOnDestroy(): void {
